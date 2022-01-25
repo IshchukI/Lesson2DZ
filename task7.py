@@ -10,4 +10,3 @@ elif x == 0:
 else:
     y = 2*abs(x) - 1
     print(f"y = 2 * |x| – 1 = {y}")
-

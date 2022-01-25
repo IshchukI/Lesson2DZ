@@ -10,4 +10,4 @@ else:
 if z < min:
     min = z
 
-print (f"Из числе {x}, {y}, {z} минимальное: {min}")
+print(f"Из числе {x}, {y}, {z} минимальное: {min}")
