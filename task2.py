@@ -2,7 +2,7 @@ number = int(input("Введите трехзначное число: "))
 LOW_LIMIT = 100
 HI_LIMIT = 999
 
-if (number < LOW_LIMIT or number > HI_LIMIT):
+if number < LOW_LIMIT or number > HI_LIMIT:
     print("Необходимо ввести трехзначное число")
 else:
     firstDigitOfNumber = number % 10
