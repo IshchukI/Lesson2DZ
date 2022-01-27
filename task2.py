@@ -1,4 +1,5 @@
 number = int(input("Введите трехзначное число: "))
+
 LOW_LIMIT = 100
 HI_LIMIT = 999
 
