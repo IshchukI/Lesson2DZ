@@ -6,7 +6,7 @@ if number < LOW_LIMIT or number > HI_LIMIT:
     print("Необходимо ввести трехзначное число")
 else:
     firstDigitOfNumber = number % 10
-    secondDigitOfNumber = int((number % 100) / 10)
-    thirdDigitOfNumber = int(number / 100)
+    secondDigitOfNumber = (number % 100) // 10
+    thirdDigitOfNumber = number // 100
     sum = firstDigitOfNumber + secondDigitOfNumber + thirdDigitOfNumber
     print(f"{firstDigitOfNumber} + {secondDigitOfNumber} + {thirdDigitOfNumber} = {sum}")
